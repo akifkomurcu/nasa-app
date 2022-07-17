@@ -1,0 +1,37 @@
+.pictureArea {
+  width: 100%;
+}
+.pic {
+  border-radius: 15%;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 17%;
+  /* background-color: black; */
+}
+
+.layout {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid:
+    "sidebar body" 1fr
+    / 2.5fr 3fr;
+  gap: 8px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  /* background-color: rgb(0, 0, 0); */
+}
+.body {
+  grid-area: body;
+}
+.info {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 17%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
